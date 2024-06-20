@@ -1,7 +1,5 @@
 torch
 Pillow
-copy
 numpy
 pandas
 streamlit
-pickle-mixin
