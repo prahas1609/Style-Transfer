@@ -15,7 +15,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Define image loader
 loader = transforms.Compose([
-    transforms.Resize((512, 512)),
+    transforms.Resize((256,256)),
     transforms.ToTensor()
 ])
 
