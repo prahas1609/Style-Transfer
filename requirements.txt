@@ -1,0 +1,7 @@
+torch
+PIL
+copy
+numpy
+pandas
+streamlit
+pickle-mixin
