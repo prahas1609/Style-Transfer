@@ -7,6 +7,8 @@ import torchvision.transforms as transforms
 from PIL import Image
 import matplotlib.pyplot as plt
 import copy
+from torchvision.models import vgg19, VGG19_Weights
+
 
 # Set device
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
